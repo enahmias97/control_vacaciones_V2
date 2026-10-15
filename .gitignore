@@ -1,0 +1,10 @@
+# Datos y credenciales: NUNCA al repositorio
+data/
+.streamlit/secrets.toml
+*.json
+# Entorno y basura
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store

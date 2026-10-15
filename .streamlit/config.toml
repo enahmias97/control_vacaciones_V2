@@ -1,0 +1,40 @@
+# WPP Media — Brand Guidelines 2025 v1.0
+[theme]
+base = "light"
+primaryColor = "#000050"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#000050"
+linkColor = "#5465FF"
+borderColor = "#93DFE3"
+font = "WPP"
+headingFont = "WPP"
+codeFont = "WPP"
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#000050"
+primaryColor = "#000050"
+borderColor = "#93DFE3"
+
+[[theme.fontFaces]]
+family = "WPP"
+url = "app/static/fonts/WPP-Regular.woff2"
+weight = 400
+style = "normal"
+
+[[theme.fontFaces]]
+family = "WPP"
+url = "app/static/fonts/WPP-Medium.woff2"
+weight = 500
+style = "normal"
+
+[[theme.fontFaces]]
+family = "WPP"
+url = "app/static/fonts/WPP-Bold.woff2"
+weight = 700
+style = "normal"
+
+[server]
+enableStaticServing = true
+runOnSave = true

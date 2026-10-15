@@ -1,0 +1,8 @@
+# Control de Vacaciones · WPP Media
+# Streamlit 1.50 o superior es OBLIGATORIO: con versiones viejas la app falla
+# ("'str' object cannot be interpreted as an integer") y aparecen colores naranjas.
+streamlit>=1.50,<2
+pandas>=2.0
+plotly>=5.20
+openpyxl>=3.1
+gspread>=6.0
